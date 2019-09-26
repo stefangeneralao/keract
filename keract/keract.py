@@ -1,8 +1,8 @@
 import json
 from collections import OrderedDict
 
-import keras.backend as K
-from keras.models import Model
+import tensorflow.keras.backend as K
+from tensorflow.keras.models import Model
 
 
 def _evaluate(model: Model, nodes_to_evaluate, x, y=None):
