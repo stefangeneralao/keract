@@ -9,5 +9,5 @@ setup(
     long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
     packages=['keract'],
-    install_requires=['numpy', 'keras']
+    install_requires=['numpy', 'tensorflow']
 )
